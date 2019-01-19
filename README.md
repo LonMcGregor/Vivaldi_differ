@@ -11,6 +11,7 @@ A differ for vivaldi - if you like to hack the vivaldi browser, and want to keep
 7. Run this python file
 8. Check the git diffs
 9. Commit each version and re-run the file each time you want to check the new version's strings
+10. Currently you need to manually check vivaldi://flags, copy all the text into flags.txt. Automating this is issue #1
 
 ## Important Notes
 For obvious copyright reasons, you shouldn't make the diffs publicly available as that is technically code decompilation which is largely disallowed for anything other than your personal use. I.e. **DON'T PUSH VIVALDI DIFFS ONTO YOUR OWN PUBLIC REPOSITORY**. Just keep the diff local, and if you want to make changes to the vivaldi_differ code itself, make a separate fork to do that in.
